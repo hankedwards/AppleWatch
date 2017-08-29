@@ -1,6 +1,10 @@
-#Simple Python script to parse Apple Health Values out of the export.xml into a pipe delimited txt file
-#The basis of this script is from Kristian Desch  I modified the code to pull out the swim data that I wanted
-#to analyze
+# August 2017 - 
+# Simple Python script to parse Apple Health Values out of the export.xml into a pipe delimited txt file
+# The basis of this script is from Kristian Desch  I modified the code to pull out the swim data that I wanted
+# to analyze.  This script is used to pull the data and create an extracted file which I then analyse via
+# a Jupyter notebook file
+
+# I will provide more comments and notes later
 
 import re, sys, os, datetime
 from datetime import datetime, timedelta
